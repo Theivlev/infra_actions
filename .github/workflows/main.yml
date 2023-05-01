@@ -40,7 +40,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }} # 1, 2, 3, 4, 5, 6, аааа 1 1 
+        key: ${{ secrets.SSH_KEY }} # 1, 2, 3, 4, 5, 6, аааа 1 1  1
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           # Выполняет pull образа с DockerHub
