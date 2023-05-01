@@ -41,7 +41,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }} # 1, 2, 3, 4, 5
-        passphrase: ${{ secrets.PASSPHRASE }}
+        passphrase: ${{}}
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull theivlev/infra_actions_1
